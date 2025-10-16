@@ -6,9 +6,11 @@ Bu repo, **Doç. Dr. Necla KIRCALI GÜRSOY** tarafından verilen Web Tasarım 1 
 
 Projenin canlı ve çalışan halini aşağıdaki bağlantıdan görüntüleyebilirsiniz:
 
-[![Vercel ile Dağıtıldı](https://vercel.com/button)](https://your-project-name.vercel.app)
+[![Vercel ile Dağıtıldı](https://vercel.com/button)](https://webtas.c3mcal.com)
 
-**[https://your-project-name.vercel.app](https://your-project-name.vercel.app)**
+**[https://webtas.c3mcal.com](https://webtas.c3mcal.com)**
+
+---
 
 ## Proje Yapısı
 
