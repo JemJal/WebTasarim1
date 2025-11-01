@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+}
+
+.satir-1 {
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+.satir-2 {
+  background-color: green;
+  color: white; 
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.satir-3 {
+  background-color: white;
+  color: blue;
+  letter-spacing: 10px;
+  text-align: right;
+}
