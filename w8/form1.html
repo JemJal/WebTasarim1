@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Form Oluşturmak 1</title>
+		<meta charset="utf-8">
+		<meta name="author" content="CC">
+		<meta name="description" content="Websitesi Tasarım 1 dersi 8. haftası için yapılmıştır.">
+	</head>
+	<body>
+		<form method="get" action="mailto:john@example.com">
+			Favori renginizi seçin:
+			<input type="color" name="favcolor" value="#FF0000">
+			<br>
+			
+			Doğum gününüzü seçin:
+			<input type="date" name="birthday" min="1973-12-31" max="2000-01-01">
+			
+			<br>
+			
+			Doğum gününüzü seçin:
+			<input type="datetime" name="birthday" min="1973-12-31" max="2000-01-01">
+			
+			<br>
+			
+			Doğum gününüzü seçin:
+			<input type="datetime-local" name="birthday" min="1973-12-31" max="2000-01-01">
+			
+			<br>
+			
+			Haftayı Seçin:
+			<input type="week" name="hafta">
+			
+			<br>
+			
+			Web Sayfası Girin:
+			<input type="url" name="websayfasi">
+			
+			<br>
+			
+			<input list="browsers">
+			<datalist id="browsers">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist>
+		</form>
+	</body>
+</html>

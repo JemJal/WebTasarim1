@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Form Oluşturmak 2</title>
+		<meta charset="utf-8">
+		<meta name="author" content="CC">
+		<meta name="description" content="Websitesi Tasarım 1 dersi 8. haftası için yapılmıştır.">
+	</head>
+	<body>
+		<fieldset>
+		<legend>Kişisel Bilgiler</legend>
+			<form method="get" action="mailto:john@example.com">
+				Adınız:
+				<input type="text" name="ad" placeholder="Ad" required>
+				
+				Soyadınız:
+				<input type="text" name="soyad" placeholder="Soyad" required>
+				
+				<br><br>
+				
+				Şifre:
+				<input type="password" name="pass" placeholder="********" maxlength="8">
+				
+				<br><br>
+				
+				Adresiniz: <br>
+				<textarea placeholder="Adres" name="adres" rows="10" cols="10"></textarea>
+				
+				<br><br>
+				
+				Öğrenim Düzeyiniz:
+				<select name="ogrenim" multiple size="2">
+					<option value="ilkokul"> İlkokul </option>
+					<option value="ortaokul"> Ortaokul </option>
+					<option value="lise"> Lise </option>
+					<option value="yuksekokul"> Yüksekokul </option>
+					<option value="universite"> Üniversite </option>
+					<option value="yuksekogrenim"> Yüksek Öğrenim </option>
+				</select>
+				
+				<br><br>
+				
+				Arabanız:
+				<select name="arabalar">
+					<optgroup label="Swedish Cars">
+						<option value="volvo"> Volvo </option>
+						<option value="saab"> Saab </option>
+					</optgroup>
+					<optgroup label="German Cars">
+						<option value="yuksekokul"> Mercedes </option>
+						<option value="universite"> Audi </option>
+					</optgroup>
+				</select>
+				
+				<br><br>
+				
+				<button type="submit">Gönder</button>
+				
+			</form>
+		</fieldset>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Form Oluşturmak 2</title>
+		<meta charset="utf-8">
+		<meta name="author" content="CC">
+		<meta name="description" content="Websitesi Tasarım 1 dersi 8. haftası için yapılmıştır.">
+	</head>
+	<body>
+		
+		<form method="get" action="mailto:john@example.com">
+			<fieldset>
+			<legend>Kişisel Bilgiler</legend>
+			Adınız-Soyadınız:
+			<input type="text" name="ad-soyad" placeholder="Adınız ve Soyadınız" required>
+			
+			<br>
+			
+			E-posta Adresiniz:
+			<input type="email" name="email" placeholder="E-mail Adresiniz" required>
+			</fieldset>
+			
+			<br><br>
+			
+			Lütfen şifrenizi giriniz:
+			<input type="password" name="pass" placeholder="********" maxlength="8">
+			
+			<br><br>
+			
+			Adresiniz: <br><br>
+			<textarea placeholder="Adres" name="adres" rows="3" cols="35"></textarea>
+			
+			<br><br>
+			
+			En sevdiğiniz meyve hangisidir? <br>
+			<input type="radio" name="meyve" value="Karpuz"> <label for="meyve">Karpuz</label>
+			<input type="radio" name="meyve" value="elma"> <label for="meyve">Elma</label>
+			<input type="radio" name="meyve" value="uzum"> <label for="meyve">Üzüm</label>
+			<input type="radio" name="meyve" value="portakal"> <label for="meyve">Portakal</label>
+			
+			<br><br>
+			
+			Aşağıdaki listeden sevdiğiniz tüm yiyecekleri işaretleyiniz... <br>
+			
+			<input type="checkbox" name="yiyecek1" value="Makarna"> <label for="yiyecek1"> Makarna</label>
+			<input type="checkbox" name="yiyecek2" value="Pizza"> <label for="yiyecek2"> Pizza</label>
+			<input type="checkbox" name="yiyecek3" value="Salata"> <label for="yiyecek3"> Salata</label>
+			<input type="checkbox" name="yiyecek4" value="Dondurma"> <label for="yiyecek4"> Dondurma</label>
+			
+			<br><br>
+			
+			Öğrenim Düzeyiniz:
+			<select name="ogrenim">
+				<option value="ilkokul"> İlkokul </option>
+				<option value="ortaokul"> Ortaokul </option>
+				<option value="lise"> Lise </option>
+				<option value="yuksekokul"> Yüksekokul </option>
+				<option value="universite"> Üniversite </option>
+				<option value="yuksekogrenim"> Yüksek Öğrenim </option>
+			</select>
+			
+			<br><br>
+			
+			<button type="submit">Gönder</button>
+			
+			<button type="reset">Formu Temizle</button>
+			
+		</form>
+		
+	</body>
+</html>
