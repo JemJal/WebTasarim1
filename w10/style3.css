@@ -1,0 +1,10 @@
+p:first-letter{
+	color:blue;
+	background-color:yellow;
+	font-size:20px;
+}
+p:first-line{
+	color:red;
+	background-color:yellow;
+	font-size:18px;
+}
