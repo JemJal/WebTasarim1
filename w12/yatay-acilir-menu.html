@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Yatay Açılır Menu</title>
+		<meta charset="utf-8">
+		<meta name="author" content="CC">
+		<meta name="description" content="Websitesi Tasarım 1 dersi 12. haftası için yapılmıştır.">
+		<style>
+			.menu{
+				list-style-type:none;
+				display:flex;
+				gap:10px;
+				width:100%;
+				background-color:#d4d4d4;
+			}
+			.menu li{
+				display: inline;
+				position: relative;
+			}
+			.menu li a{
+				color: #FFFFFF ;
+				text-decoration: none;
+				padding: 10px;
+				border-radiues:10px;
+			}
+			.dropdown-menu{
+				display:none;
+			}
+			
+			.menu li:hover .dropdown-menu{
+				display:flex;
+				flex-direction:column;
+				list-style-type:none;
+				background-color: darkgray;
+				position: absolute;
+				margin-top:10px;
+			}
+			.dropdown-menu a{
+				display: block;
+				color: #FFFFFF;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="menu">
+			<li><a href="#">Anasayfa</a></li>
+			<li><a href="#">Haberler</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Şirket Habeleri</a></li>
+					<li><a href="#">Yurt İçi Haberler</a></li>
+					<li><a href="#">Yurt Dışı Haberler</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Ürünler</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Tencere</a></li>
+					<li><a href="#">Tava</a></li>
+					<li><a href="#">Ütü</a></li>
+					<li><a href="#">Tost Makinesi</a></li>
+					<li><a href="#">El Süpürgesi</a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</body>
+</html>

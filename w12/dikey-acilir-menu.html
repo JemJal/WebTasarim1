@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Dikey Açılır Menu</title>
+		<meta charset="utf-8">
+		<meta name="author" content="CC">
+		<meta name="description" content="Websitesi Tasarım 1 dersi 12. haftası için yapılmıştır.">
+		<style>
+			ul{
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				width: 150px;
+			}
+			ul li{
+				position: relative;
+			}
+			li ul{
+				position: absolute;
+				left: 149px;
+				top: 0;
+				display: none;
+			}
+			ul li a{
+				display: block;
+				text-decoration: none;
+				background-color: #E2E2E2;
+				color: black;
+				padding: 5px;
+				border: 1px solid #000;
+				border-bottom: 1;
+			}
+			ul li a:hover{
+				background-color: #4d4d4d;
+				color: white;
+			}
+			li:hover ul{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="menu">
+			<li><a href="#">Anasayfa</a></li>
+			<li><a href="#">Haberler</a>
+				<ul>
+					<li><a href="#">Şirket Habeleri</a></li>
+					<li><a href="#">Yurt İçi Haberler</a></li>
+					<li><a href="#">Yurt Dışı Haberler</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Ürünler</a>
+				<ul>
+					<li><a href="#">Tencere</a></li>
+					<li><a href="#">Tava</a></li>
+					<li><a href="#">Ütü</a></li>
+					<li><a href="#">Tost Makinesi</a></li>
+					<li><a href="#">El Süpürgesi</a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</body>
+</html>
